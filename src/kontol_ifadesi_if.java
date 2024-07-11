@@ -5,8 +5,7 @@ public class kontol_ifadesi_if {
         int a, b;
         secenek = 0;
         a = 5;
-        b = 7;//
-        //
+        b = 7;
         if (secenek == 0) {
             System.out.println("a+b=" + (a + b));
         }
