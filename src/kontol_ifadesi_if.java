@@ -3,7 +3,7 @@ public class kontol_ifadesi_if {
 
         int secenek;
         int a, b;
-        secenek = 0;
+        secenek = 2 ;
         a = 5;
         b = 7;
         if (secenek == 0) {
@@ -13,9 +13,15 @@ public class kontol_ifadesi_if {
             System.out.println("a-b=" + (a - b));
 
         }
+        else {
+            System.out.println("cıkartma degil");
+        }
         if (secenek == 2) {
             System.out.println("a*b=" + (a * b));
 
+        }
+        else{
+            System.out.println(("carpma degil"));
         }
     }
 }
